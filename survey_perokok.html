@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Perokok</title>
+</head>
+<body>
+    <h1>Form Survey Perokok</h1>
+    <form>
+       <div>
+         <label for="name">Nama : </label>
+        <input type="text" id="name" placeholder="Masukkan nama...">
+       </div>
+       <br>
+       <div>
+         <label for="age">Umur : </label>
+        <input type="number" id="age" placeholder="Masukkan umur...">
+       </div>
+       <br>
+       <div>
+        <label for="">Jenis Kelamin : </label>
+        <br>
+         <input type="radio" name="gender" id="L"><label for="L">Laki-laki</label>
+         <input type="radio" name="gender" id="P"><label for="P">Perempuan</label>
+       </div>
+       <br>
+       <div>
+        <label for="isPerokok">Apakah anda seorang perokok?</label>
+        <br>
+        
+        <select name="" id="isPerokok">
+            <option value="" disabled selected>Pilih yang sesuai dengan anda</option>
+            <option value="">Ya</option>
+            <option value="">Tidak</option>
+        </select>
+       </div>
+       <br>
+       <div>
+        <label for="">Jika Iya, brand rokok ymana yang digunakan?</label>
+        <br>
+        <input type="checkbox" name="rokok" id="gudang-garam" value="gudang-garam">
+        <label for="gudang-garam">Gudang Garam</label>
+        <input type="checkbox" name="rokok" id="sampoerna" value="sampoerna">
+        <label for="sampoerna">Sampoerna</label>
+        <input type="checkbox" name="rokok" id="dunhill" value="dunhill">
+        <label for="dunhill">Dunhill</label>
+       </div>
+       <br>
+       <div>
+        <button type="submut">Submit</button>
+       </div>
+    </form>
+</body>
+</html>
